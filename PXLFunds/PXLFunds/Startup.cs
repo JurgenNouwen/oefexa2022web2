@@ -33,6 +33,9 @@ namespace PXLFunds
             //Identity
             services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<ApplicationDbContext>();
 
+            // Http client via DI
+            services.AddHttpClient(ApiConstants.FundInfoHttpClientName, c => { c.BaseAddress = new Uri("htpp://localhost:5000/api/"); });
+
             //Program Services
 
             services.AddScoped<ISeedDataRepository, SeedDataRepository>();

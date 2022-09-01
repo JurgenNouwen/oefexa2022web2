@@ -1,4 +1,5 @@
 ﻿using PXLFunds.Data;
+using PXLFunds.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,9 @@ namespace PXLFunds.Services
         IEnumerable<Bank> GetBankName();
         IEnumerable<Fund> GetFundName();
         IEnumerable<Fund> GetFundValue();
+        IEnumerable<FundInfoModel> GetAll();
+
+
 
 
     }
