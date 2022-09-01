@@ -7,6 +7,6 @@ namespace PXLFunds.Models
 {
     public class FundInfoOutputModel
     {
-        https://www.youtube.com/watch?v=IJJKhYN5cfI&list=PLLumDnUbuj1vcFJaZTUfohebhw7GhucXX&index=61
+     // https://www.youtube.com/watch?v=IJJKhYN5cfI&list=PLLumDnUbuj1vcFJaZTUfohebhw7GhucXX&index=61
     }
 }
